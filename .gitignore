@@ -1,2 +1,5 @@
 # 构建产物，通过 Release 分发
 dist/
+
+# 图标为本地设计素材，不入库
+SteamIconFix.ico
