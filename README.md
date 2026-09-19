@@ -1,5 +1,5 @@
 # 桌面steam游戏快捷方式图标丢失的修复方案
-<img width="86" height="79" alt="image" src="https://github.com/user-attachments/assets/751faa92-22b5-494d-b080-5f2af2003f27" />
+<img width="86" height="79" alt="image" src="images/icon-broken.png" />
 
 ## 原因
 
@@ -10,15 +10,7 @@
 
 ## 使用方法
 
-1.保存SteamIconFix.ps1到本地
-
-2.右击该文件
-
-3.选择“使用powershell运行”
-
-<img width="420" height="589" alt="Pasted image 20260919083835" src="https://github.com/user-attachments/assets/867b8d0e-40a9-4bc5-9a41-2bc8c92fa2d8" />
-
-4.运行后自动关闭，刷新桌面图标恢复
+下载 `SteamIconFix.exe`，双击运行。无需安装，无需管理员权限。
 
 ## 工作原理
 Steam 桌面快捷方式通过 `IconFile` 字段指定对应的游戏图标文件：
@@ -49,6 +41,6 @@ https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/{appid}
 
 自动重新下载图标  
 5. 保存到 Steam 图标缓存目录  
-6. 刷新，使桌面快捷方式恢复正常显示
+6. 重启explorer，恢复正常显示
 
-<img width="74" height="70" alt="image" src="https://github.com/user-attachments/assets/2254c9a8-9cba-4c70-a72d-808f00d34aaa" />
+<img width="74" height="70" alt="image" src="images/icon-fixed.png" />
